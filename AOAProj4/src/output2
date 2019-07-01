@@ -1,0 +1,50 @@
+
+TEST: n=300, seed=100000, p=0.5
+Time to generate the graph: 1017 milliseconds
+===================================
+KRUSKAL WITH MATRIX USING INSERTION SORT
+
+Total weight of MST using Kruskal: 877
+Runtime: 1500 milliseconds
+
+===================================
+KRUSKAL WITH MATRIX USING COUNT SORT
+
+Total weight of MST using Kruskal: 877
+Runtime: 6 milliseconds
+
+===================================
+KRUSKAL WITH MATRIX USING QUICKSORT
+
+Total weight of MST using Kruskal: 877
+Runtime: 10 milliseconds
+
+===================================
+KRUSKAL WITH LIST USING INSERTION SORT
+
+Total weight of MST using Kruskal: 877
+Runtime: 1498 milliseconds
+
+===================================
+KRUSKAL WITH LIST USING COUNT SORT
+
+Total weight of MST using Kruskal: 877
+Runtime: 7 milliseconds
+
+===================================
+KRUSKAL WITH LIST USING QUICKSORT
+
+Total weight of MST using Kruskal: 877
+Runtime: 6 milliseconds
+
+===================================
+PRIM WITH ADJACENCY MATRIX
+
+Total weight of MST using Prim: 877
+Runtime: 150 milliseconds
+
+===================================
+PRIM WITH ADJACENCY LIST
+
+Total weight of MST using Prim: 877
+Runtime: 139 milliseconds
